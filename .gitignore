@@ -179,3 +179,29 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+ # Byte-compiled / optimized / DLL files
+   __pycache__/
+   *.py[cod]
+   *$py.class
+
+ # Virtual environments
+   venv/
+   env/
+   ENV/
+   .venv/
+   .env
+
+ # Distribution / packaging
+   build/
+   dist/
+   *.egg-info/
+
+  # VS Code
+    .vscode/
+  # PyCharm
+    .idea/
+
+  # Streamlit
+    .streamlit/secrets.toml
